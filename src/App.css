@@ -1,0 +1,113 @@
+:root {
+  --light_purple: #02d3d5;
+  --white: white;
+  --black: black;
+}
+* {
+  font-family: sans-serif;
+}
+.quiz_main_div {
+  background-color: var(--light_purple);
+  height: 100vh;
+}
+.result_container {
+  background-color: var(--white);
+  width: 100%;
+  height: 100vh;
+}
+.result_inner_div {
+  position: relative;
+  top: 130px;
+  width: 35%;
+  margin: auto;
+  border-radius: 20px;
+  height: 50vh;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.result_heading {
+  position: relative;
+  top: 70px;
+  font-family: cursive;
+}
+.progressBar_div {
+  position: relative;
+  top: 75px;
+}
+
+.title {
+  margin-top: 15px;
+}
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  background-color: var(--white);
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin: 20px 20px;
+  color: var(--black);
+  cursor: pointer;
+}
+.Next_btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.Next_btn {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: var(--black);
+  border-radius: 5px;
+  background-color: var(--white);
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.progressBar_div {
+  width: 30%;
+  margin: auto;
+}
+.progressBarr_div {
+  width: 30%;
+  margin: auto;
+}
+.progressBarrr_div {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.home_container {
+  background-color: var(--white);
+  height: 100vh;
+}
+.start_btn {
+  margin-top: 40px;
+  display: block;
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--light_purple);
+}
+.link {
+  color: var(--black);
+}
+.home_inner_container {
+  margin-top: 100px;
+}
+.quiz_heading {
+  font-size: 30px;
+  background-color: var(--light_purple);
+  padding: 10px 0px;
+}
+input {
+  height: 40px;
+  width: 300px;
+  margin-top: 40px;
+  border-radius: 25px;
+  padding-left: 8px;
+}
